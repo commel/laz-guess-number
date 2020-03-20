@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 1577
+  Height = 240
+  Top = 115
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 11
+    Height = 15
+    Top = 14
+    Width = 56
+    Caption = 'Dein Tipp?'
+    ParentColor = False
+  end
+  object TextGuess: TEdit
+    Left = 11
+    Height = 23
+    Top = 32
+    Width = 80
+    TabOrder = 0
+  end
+  object ButtonGuess: TButton
+    Left = 104
+    Height = 25
+    Top = 32
+    Width = 75
+    Caption = 'Raten'
+    OnClick = ButtonGuessClick
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 11
+    Height = 98
+    Top = 64
+    Width = 294
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 280
+    Height = 15
+    Top = 8
+    Width = 34
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 208
+    Width = 75
+    Caption = 'Neu würfeln'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 200
+    Height = 15
+    Top = 218
+    Width = 73
+    Caption = 'Anz. Versuche'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 279
+    Height = 15
+    Top = 218
+    Width = 34
+    Caption = 'Label4'
+    ParentColor = False
+  end
+end
